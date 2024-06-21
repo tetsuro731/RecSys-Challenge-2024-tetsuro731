@@ -11,7 +11,7 @@
 # ハイパーパラメータのチューニング
 - Optunaにぶち込む
 
-# How to run coes
+# How to run codes
 
 - `RecSys2024_preprocess.ipynb`を回すことでLightGBMのinputとなるfeatureの下処理をする
   - パラメータをtrain/valid/testにすることでそれぞれの期間におけるデータを生成
