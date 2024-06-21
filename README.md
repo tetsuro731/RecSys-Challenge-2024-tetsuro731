@@ -17,8 +17,8 @@
   - パラメータをtrain/valid/testにすることでそれぞれの期間におけるデータを生成
   - 公式から準備されているsmall dataでも回せる
   - fullで回すと時間がかかるので、まずはsmallで回して検証し、良さそうならfullで回す
- 
--  `preprocess_create_embed.ipynb`
+
+- `preprocess_create_embed.ipynb`
   - featureとして使うembeddingを生成するためのコード
   - 公式から与えられたarticle_idごとのembeddingに加え、yyamaさんに作成してもらった記事のtitle, subtitle, title+subtitleのembeddingを読み込む
   - そのままだと次元が多いので、PCAを使って32次元や16次元などにする
