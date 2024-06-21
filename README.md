@@ -79,3 +79,6 @@
 - 最終的にはtestの7 daysを予測したいため、local CVではtrainの7 daysを使ってvalidの 7daysを予測した
 - このlocal CV scoreはPublic LBとよく相関したため、これを用いてモデルの改善を行なった
 
+# Ensemble
+- 得られた複数モデルはスコアの重みつき平均を計算して最終的な結果を得た
+- 最終subではtrain/validモデル、乱数seed=42,52,62の6つのモデルで、同じ重みでアンサンブルした
