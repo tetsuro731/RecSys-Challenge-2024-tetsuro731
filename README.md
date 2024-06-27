@@ -24,7 +24,7 @@
 
 - `preprocess_create_embed.ipynb`
 	- Code to generate embeddings to be used as features.
- 	- In addition to the embeddings for each article_id provided by the official competition, it reads the embeddings for article titles, subtitles, and titles+subtitles created by yyama.
+ 	- In addition to the embeddings for each article_id provided by the official competition, it reads the embeddings for article titles, subtitles, and titles+subtitles created by yyama (the extraction of each embeddding is described in `create_article_embeddings.ipynb`).
   	- The dimensionality is too high as-is, so it is reduced to 32 or 16 dimensions using PCA.
   	- Finally, 16 dimensions were adopted (higher dimensions increase accuracy but also computation time).
 
