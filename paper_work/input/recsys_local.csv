@@ -1,0 +1,11 @@
+﻿nDCG@10 (Local),nDCG@10 (LB),Description,type
+0.596856,0.6013,,train only
+0.596856,0.6161,"baseline features
+(nFeatures=42)",train+valid
+0.645803,0.6692,,train only
+0.645803,0.6713,"add interactive features
+(nFeatures=119)",train+valid
+0.668764,0.6919,"add_session_features
+(nFeatures=126)",train+valid
+0.672581,0.6996,"add imp time and embedding features
+(nFeatures=130)",train+valid
